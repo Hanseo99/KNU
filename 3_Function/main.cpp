@@ -54,9 +54,9 @@ void CallFunction()
 int main()
 {
 	unsigned int nResult = 0;
+	CallFunction();
 	nResult = CaculatorSum(1, 1);
 	printf("µ¡¼À ÇÔ¼ö ½ÇÇà °á°ú = %d\n", nResult);
-	CallFunction();
 	nResult = CalculatorMinus(75, 30);
 	printf("»¬¼À ÇÔ¼ö ½ÇÇà °á°ú = % d\n", nResult);
 	nResult = CalculatorDevide(75, 30);
