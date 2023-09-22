@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Works\KNU\2_Ifelse_switch\main.cpp(264,13): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+D:\Works\KNU\2_Ifelse_switch\main.cpp(264,13): warning C4309: '=': 상수 값이 잘립니다.
+  2_Ifelse_switch.vcxproj -> D:\Works\KNU\2_Ifelse_switch\x64\Debug\2_Ifelse_switch.exe
