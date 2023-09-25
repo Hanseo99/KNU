@@ -86,6 +86,32 @@ int SumToN(int Num)
 	return FacResult;
 }
 
+int AAA()
+{
+	while(1)
+	{
+		printf("1st While! Start\n");
+		break;
+		printf("1st While! Start\n");
+	}
+
+	while (1)
+	{
+		printf("2nd While! Start\n");
+		return 0;
+		printf("2nd While! Start\n");
+	}
+
+	while (1)
+	{
+		printf("3rd While! Start\n");
+		break;
+		printf("3rd While! Start\n");
+	}
+
+	return 0;
+}
+
 void CallFunction();
 
 int main()
@@ -146,16 +172,62 @@ int main()
 	// 5 Factorial 구해라
 	// 5 * 4 * 3 * 2 * 1 = 15; 
 
-	printf("Factorial FacResult = %d\n", Factorial(5));
-	printf("Factorial2 FacResult = %d\n", Factorial2(5));
-	printf("ReFactorial FacResult = %d\n", ReFactorial(5));
-	printf("SumToN Result = %d\n", SumToN(10));
+//	printf("Factorial FacResult = %d\n", Factorial(5));
+//	printf("Factorial2 FacResult = %d\n", Factorial2(5));
+//	printf("ReFactorial FacResult = %d\n", ReFactorial(5));
+//	printf("SumToN Result = %d\n", SumToN(10));
+//
+//	int nResult = 1;
+//	int i = 1;
+//
+//	while (true)
+//	{
+//		printf("i=%d\n", i);
+//		i++;
+//		printf("break 실행 전\n");
+//		break;//이 명령어를 만나면 while 즉시 종료한다. 아래 코드 실행 안됨
+//		printf("break 실행 후\n");
+//	}
+//	//while문
+//	while (i<=10)//<- 이 조건식이 true면 아래 괄호 안의 코드를 실행한다 .false면 while문을 종료하고 다음 코드 실행
+//	{// <-반복 처리 할 코드 시작
+//		nResult *= i;
+//		i++;
+//		
+//	}//<-반복 처리 할 코드 종료
+//	printf("while Factorial = %d", nResult);
+//	//1~n까지 합 구하는 함수
+//	//int SumToN(int Num)
 
-	//1~n까지 합 구하는 함수
-	//int SumToN(int Num)
+	//0~Num 짝수만 더하기
+	
+//	int i = 0, Num =10;
+//	int nResult = 0;
+//	while (i<=Num)
+//	{
+//		i++;
+//		if (i % 2 != 0)
+//			continue;//다음 구문 코드를 실행하지 않고 while 코드를 계속 실행
+//			nResult += i;
+//		
+//	}
+//	printf("0~Num EvenSum=%d", nResult);
+	//위의 코드를 for 문으로 만드시오
+	int i, Num = 10;
+	int nResult = 0;
+	for (i =0;i<= Num;)
+	{
+		i++;
+		if (i % 2 != 0)			
+			continue;
+			nResult += i;
+
+	}
+	printf("0~Num EvenSum=%d\n", nResult);
+	AAA();
 }
 
 void CallFunction()
 {
-	printf("함수 호출됬다!");
+	printf("함수 호출됐다!");
 }
