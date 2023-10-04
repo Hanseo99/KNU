@@ -78,7 +78,7 @@ int main()
 	for (int i = 0; i <= GetStringLength(szWCharInput); i++)
 	{
 		wchar_t c = *(szWCharInput + i);
-		if (c == 'a')
+		if (c == 'a')//if(szWCharInput[i]=='a')
 		{
 			cnta++;
 		}
