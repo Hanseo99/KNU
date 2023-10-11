@@ -1,0 +1,11 @@
+﻿  Card.cpp
+  HighLowGame.cpp
+D:\Works\KNU\HighLowGame\HighLowGame.cpp(21,28): warning C4244: '인수': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Works\KNU\HighLowGame\HighLowGame.cpp(22,56): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Works\KNU\HighLowGame\HighLowGame.cpp(84,22): warning C4805: '==': 연산에 'bool' 형식과 'int' 형식을 함께 사용하는 것은 안전하지 않습니다.
+  코드를 생성하고 있습니다...
+  HighLowGame.vcxproj -> D:\Works\KNU\HighLowGame\x64\Debug\HighLowGame.exe
